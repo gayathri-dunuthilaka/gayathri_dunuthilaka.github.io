@@ -298,10 +298,118 @@ body {
   }
   
 
+
+
+  /* EXPERIENCE SECTION */
+.experience {
+    background-color: #081b29;
+    padding: 75px 0;
+}
+
+  .experience .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .experience .sub-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.experience .description {
+    font-size: 14px;
+    color: #A0E7E5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+     text-align: center;
+}
+
+.description::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #13F0C4;
+    margin: 20px auto 0;
+    border-radius: 5px;
+}
+
+.experience .sub-title span {
+    color: #13F0C4;
+}
+.experience .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    background: #025E5E;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.experience .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #13F0C4;
+    border-radius: 5px 0 0 5px;
+}
+
+.experience .timeline-icon {
+    min-width: 60px;
+    height: 60px;
+    background: #13F0C4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.experience .timeline-icon i {
+    font-size: 28px;
+    color: #023535;
+}
+
+.experience .timeline-content h3 {
+    font-size: 22px;
+   color: #ffffff;
+}
+
+.experience .timeline-content span {
+    font-size: 14px;
+    color: #A0E7E5;
+}
+
+.experience .timeline-content ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.experience .timeline-content ul li {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
 /* Projects Section */
 
 .projects-section {
-    background-color:  #081b29;
+    background-color:  #042326;
     padding: 50px 0;
   }
   .container {
@@ -321,10 +429,11 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
+    color: #13F0C4;
   }
   
   .sub-title span {
-    color: #13F0C4;
+    color: #ffffff;
   }
   
   .projects-grid {
@@ -399,6 +508,7 @@ body {
 
 /*****MY SKILLS*****/
 section {
+    background-color: #081b29;
     display: flex;
     flex-wrap: wrap;
 }
@@ -696,7 +806,7 @@ section {
     gap: 3rem;
     padding: 70px 10% 0;
     margin-top: 130px;
-    background-color: #081b29;
+    background-color: #042326;
     border-radius: 10px;
     overflow: hidden;
 }
