@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "_K9KCtqu9jdLpOlfg",
+      });
+   })();
+</script>
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+  </head>
+  <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">    
+            <a href="#about" style="--i:1" class="active">About</a>
+            <a href="#education" style="--i:3">Education</a>
+            <a href="#project" style="--i:3">Projects</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a> 
+        </nav>
+
+    </header>
+   
+    
+<section class="about" id="about">
+
+  <div class="about-content">
+    <h3>Hello, It's Me</h3> 
+    <h1>Gayathri Dunuthilaka</h1>
+    <h3>And I'm a <span class="text"></span></h3>  
+
+    <p>
+        Motivated and detail-oriented QA Engineer with experience in automation testing, 
+        API validation, and real-world banking systems. Passionate about delivering 
+        high-quality and reliable software solutions.
+    </p>
+
+    <div class="about-sci">
+    <a href="https://www.facebook.com/gayathri.dunuthilaka.7?mibextid=ZbWKwL" style="--i:6"><i class='bx bxl-facebook' style='color:#13F0C4' ></i></a>
+    <a href="https://www.instagram.com/gayathri_dunuthilaka?igsh=MWZzbnVmb2d5Nm16Yw==" style="--i:7"><i class='bx bxl-instagram-alt' style='color:#13F0C4' ></i></a> 
+    <a href="https://www.linkedin.com/in/gayathri-kaushalya" style="--i:8"><i class='bx bxl-linkedin' style='color:#13F0C4' ></i></a> 
+    <a href="https://github.com/gayathri-dunuthilaka" style="--i:9"><i class='bx bxl-github' style='color:#13F0C4' ></i></a>
+    </div>
+
+    <a href="cv/Gayathri Kaushalya_QA.pdf" class="btn-box" download>Download CV</a>
+  </div>
+
+  <!-- RIGHT IMAGE -->
+  <div class="about-img">
+    <img src="images/profile.jpg" alt="profile">
+  </div>
+
+</section>
+
+<!------ EDUCATION SECTION ------>
+<section class="education" id="education">
+  <div class="container">
+    <h1 class="sub-title">My <span>Education</span></h1>
+    <div class="section-header">
+      <p class="description">What I have learned so far</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="images/uom.jpg" alt="University of Moratuwa, Sri Lanka">
+        </div>
+        <div class="timeline-content">
+          <h3>BSc.(Hons.) in Information Technology - 2025 </h3>
+          <p>University of Moratuwa, Sri Lanka</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="images/poramadulla.jpg" alt="Poramadulla Central College - Nuwaraeliya">
+        </div>
+        <div class="timeline-content">
+          <h3>GCE Advanced Level Examination - 2019</h3>
+          <p>Poramadulla Central College - Nuwaraeliya</p>
+          <ul>
+            <li>Engineering Technology Scheme with Maths: AAC</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="images/poramadulla.jpg" alt="Poramadulla Central College - Nuwaraeliya">
+        </div>
+        <div class="timeline-content">
+          <h3>GCE Ordinary Level Examination - 2014</h3>
+          <p>Poramadulla Central College - Nuwaraeliya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!------ PROJECT SECTION ------>
+<section class="projects-section" id="project">
+  <div class="container">
+    <h1 class="sub-title">My <span>Projects</span></h1>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/hotelmanagement.png" alt="hotelManagement">
+          <div class="image-overlay">
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Hotel Management System</h3>
+          <p>I contributed to the development of the Housekeeping Service and Mini Bar modules within the hotel management system for Awakaza Software Company.</p>
+          <div class="project-tags">
+            <span>#Laravel</span>
+            <span>#MySQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/wetherapp.png" alt="weather">
+        </div>
+        <div class="project-content">
+          <h3>Wether App</h3>
+          <p>A simple app that can find weather, temperature, snow, wind speed anywhere county in the world.</p>
+          <div class="project-tags">
+            <span>#React</span>
+            <span>#Javascript</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/portfoliopic.png" alt="My Portfolio">
+          <div class="image-overlay">
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>My Portfolio</h3>
+          <p>Crafted a dynamic portfolio highlighting my expertise, achievements, and creative projects, showcasing my journey, technical skills, and ongoing professional growth.</p>
+          <div class="project-tags">
+            <span>#HTML</span>
+            <span>#CSS</span>
+            <span>#Javascript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--  SKILLS SECTION -->
+<section>
+  <div class="container1" id="skills">
+    <h1 class="heading1">QA Technical Skills</h1>
+
+    <div class="Technical-bars">
+
+      <!-- PLAYWRIGHT -->
+      <div class="bar">
+        <i class='bx bx-bug' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>Playwright</span>
+        </div>
+      </div>
+      <div class="progress-line playwright"><span></span></div>
+
+      <!-- SELENIUM -->
+      <div class="bar">
+        <i class='bx bx-test-tube' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>Selenium</span>
+        </div>
+      </div>
+      <div class="progress-line selenium"><span></span></div>
+
+      <!-- MANUAL TESTING -->
+      <div class="bar">
+        <i class='bx bx-check-shield' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>Manual Testing</span>
+        </div>
+      </div>
+      <div class="progress-line manual"><span></span></div>
+
+      <!-- API TESTING -->
+      <div class="bar">
+        <i class='bx bx-transfer' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>API Testing (Postman)</span>
+        </div>
+      </div>
+      <div class="progress-line api"><span></span></div>
+
+      <!-- SQL -->
+      <div class="bar">
+        <i class='bx bx-data' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>SQL / Database Testing</span>
+        </div>
+      </div>
+      <div class="progress-line sql"><span></span></div>
+
+      <!-- AUTOMATION -->
+      <div class="bar">
+        <i class='bx bx-cog' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>Test Automation</span>
+        </div>
+      </div>
+      <div class="progress-line automation"><span></span></div>
+
+      <!-- JIRA -->
+      <div class="bar">
+        <i class='bx bx-task' style="color:#13F0C4"></i>
+        <div class="info">
+          <span>JIRA / Bug Tracking</span>
+        </div>
+      </div>
+      <div class="progress-line jira"><span></span></div>
+
+    </div>
+  </div>
+
+
+
+  <!-- PROFESSIONAL SKILLS -->
+  <div class="container1">
+    <h1 class="heading1">Professional Skills</h1>
+
+    <div class="radial-bars">
+
+      <div class="radial-bar">
+        <svg viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">85%</div>
+        <div class="text">Attention to Detail</div>
+      </div>
+
+      <div class="radial-bar">
+        <svg viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">80%</div>
+        <div class="text">Problem Solving</div>
+      </div>
+
+      <div class="radial-bar">
+        <svg viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">85%</div>
+        <div class="text">Communication</div>
+      </div>
+
+      <div class="radial-bar">
+        <svg viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+        </svg>
+        <div class="percentage">90%</div>
+        <div class="text">Team Collaboration</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!------CONTACT SECTION------>
+<section class="contact" id="contact">
+  <div class="contact-text">
+      <h2>Contact<span> Me</span></h2>
+      <h4>Let's work together...</h4>
+      <p>Feel free to reach out for collaboration, project inquiries, or any questions. 
+        I look forward to connecting with you!</p>
+      <div class="contact-list">
+        <li><i class='bx bxs-map' style='color:#13F0C4' ></i>    No.11, Bolape, Kapuliyadda. </li>
+        <li><i class='bx bxl-gmail' style='color:#13F0C4'  ></i>    dunuthilakagayathri@gmail.com</li>
+        <li><i class='bx bxs-phone' style='color:#13F0C4' ></i>    0713796736 </li>
+       <div>
+       <div>
+       </div>   
+
+        </a>
+       </div>   
+
+</a>
+
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.facebook.com/gayathri.dunuthilaka.7?mibextid=ZbWKwL" style="--i:6"><i class='bx bxl-facebook' style='color:#13F0C4' ></i></a>
+        <a href="https://www.instagram.com/gayathri_dunuthilaka?igsh=MWZzbnVmb2d5Nm16Yw==" style="--i:7"><i class='bx bxl-instagram-alt' style='color:#13F0C4' ></i></a>
+        <a href="https://www.linkedin.com/in/gayathri-kaushalya" style="--i:8"><i class='bx bxl-linkedin' style='color:#13F0C4' ></i></a>    
+      </div>
+
+  </div>
+  <div class="contact-form">
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Enter Your Name" required>
+      <input type="email" id="email" placeholder="Enter Your Email" required>
+      <input type="text" id="subject" placeholder="Enter Your Subject" required>
+      <textarea id="message" placeholder="Enter Your Message" required></textarea>
+      <input type="submit" value="Submit" class="send">
+    </form>
+    <div id="notification" class="notification" style="display: none;"></div>
+  </div>
+  
+</section>
+
+<div class="last-text">
+  <p>© 2024 Gayathri Dunuthilaka. All rights reserved.</p>
+</div>
+
+<a href="#" class="top"><i class='bx bx-up-arrow-alt' style='color:#0b0b0b' ></i></a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
